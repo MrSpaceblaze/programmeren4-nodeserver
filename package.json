@@ -2,7 +2,7 @@
 	"name": "mrspaceblaze-first-app",
 	"description": "none needed",
 	"version": "0.1.0",
-	"main": "code.js"
+	"main": "code.js",
 	"engines": {
 		"node": "8.11.1"
 	}
