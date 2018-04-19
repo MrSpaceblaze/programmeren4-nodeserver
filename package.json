@@ -1,4 +1,6 @@
 {
+	"name": "mrspaceblaze-first-app"
+	"description": "none needed"
 	"version": "0.1.0"
 	"engines": {
 		"node": "9.11.1"
