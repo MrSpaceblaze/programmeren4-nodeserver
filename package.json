@@ -1,9 +1,23 @@
 {
-	"name": "mrspaceblaze-first-app",
-	"description": "none needed",
-	"version": "0.1.0",
-	"main": "code.js",
-	"engines": {
-		"node": "8.11.1"
-	}
+  "name": "programmeren4-nodeserver",
+  "version": "1.0.0",
+  "description": "Program",
+  "main": "code.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./code.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSpaceblaze/programmeren4-nodeserver.git"
+  },
+  "author": "Fer Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSpaceblaze/programmeren4-nodeserver/issues"
+  },
+  "homepage": "https://github.com/MrSpaceblaze/programmeren4-nodeserver#readme"
 }

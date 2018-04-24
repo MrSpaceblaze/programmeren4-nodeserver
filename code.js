@@ -1,13 +1,10 @@
-let http = require('http');
+let http = require('express');
+var app = express();
 
-http.createServer(function (request, response){
-	console.log('request');
-	response.writeHead(200,{'Content-Type': 'application/json'});
-	let result = JSON.stringify({
-		'firstname':'Something',
-		'lastname': "Else"
-	});
-	response.end(result);
-}).listen(3000);
-
-console.log('Server listens on port 3000');
+app.all('*',function(request, response) {
+	response.status(404);
+	response.send('404 - not found')
+})
+app.listen(process.env.PORT, function() {
+	console.log('App is listening on port'+process.env.PORT)
+});
